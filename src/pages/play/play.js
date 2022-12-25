@@ -37,7 +37,7 @@ const Play = () => {
   let game = Game;
   const [status, setStatus] = useState("");
   useEffect(() => {
-    socket = io("ws://localhost:4000");
+    socket = io("https://tictactoeSocket.gauravbidhuri.repl.co");
     socket.on("connect", () => {
       setStatusBar("connected. handshaking...");
       socket.emit("handshake", {

@@ -37,7 +37,7 @@ const Login = (props) => {
     }
     // send request and validate
     axios
-      .post("http://localhost:3001/api/validate", {
+      .post("https://tictactoeAPISERVER.gauravbidhuri.repl.co/api/validate", {
         query: {
           username: event.target.username.value,
           password: event.target.password.value,

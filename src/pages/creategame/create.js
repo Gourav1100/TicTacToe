@@ -36,7 +36,7 @@ const Create = (props) => {
     }
     // send request and validate
     axios
-      .post("http://localhost:3001/api/database", {
+      .post("https://tictactoeAPISERVER.gauravbidhuri.repl.co/api/database", {
         query: {
           email: event.target.email.value,
         },

@@ -96,7 +96,7 @@ const Home = (props) => {
       window.localStorage.setItem("mutex", "true");
       setStatus("data");
       axios
-        .get("http://localhost:3001/api/database", {
+        .get("https://tictactoeAPISERVER.gauravbidhuri.repl.co/api/database", {
           params: {
             database: "tictactoe",
             collection: "user",
@@ -112,7 +112,7 @@ const Home = (props) => {
             // send request to fetch all games owned by this user.
             setStatus("games");
             axios
-              .get("http://localhost:3001/api/database", {
+              .get("https://tictactoeAPISERVER.gauravbidhuri.repl.co/api/database", {
                 params: {
                   database: "tictactoe",
                   collection: "games",
