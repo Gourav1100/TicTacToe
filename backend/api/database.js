@@ -209,7 +209,7 @@ const add = async (req) => {
       }
       let newGame = {
         timestamp: Date.now(),
-        moves: Math.round(Math.random() * 100 + 1) % 2 ? response[0].email : result[0].email,
+        moves: result[0].email,
         state: ["", "", "", "", "", "", "", "", ""],
         finished: "",
         users: [result[0].email, response[0].email],

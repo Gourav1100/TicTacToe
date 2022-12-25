@@ -154,6 +154,7 @@ const Play = () => {
       socket.emit("restartGame", {
         game: JSON.parse(Game),
         token: localStorage.getItem("token"),
+        email: localStorage.getItem("email"),
       });
     }
   };

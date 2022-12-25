@@ -104,8 +104,7 @@ async function serve() {
       if (isValid) {
         const _id = game.game._id;
         game.game.timestamp = Date.now();
-        game.game.moves =
-          Math.round(Math.random() * 100 + 1) % 2 ? game.game.users[1] : game.game.users[0];
+        game.game.moves = game.email;
         game.game.state = ["", "", "", "", "", "", "", "", ""];
         game.game.finished = "";
         updateGame(game.game);
