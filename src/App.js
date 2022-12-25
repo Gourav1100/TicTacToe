@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landing from "./pages/landing/landing";
+import Helmet from "react-helmet";
+import Nopage from "./pages/nopage/nopage";
+import "./App.css";
+import Register from "./pages/register/register";
+import Login from "./pages/login/login";
+import Home from "./pages/home/home";
+import Create from "./pages/creategame/create";
+import Play from "./pages/play/play";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Helmet>
+        <title>Tic-Tac-Toe</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Helmet>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/">
+            <Route index element={<Landing />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/create" element={<Create />} />
+            <Route path="/play" element={<Play />} />
+            <Route path="*" element={<Nopage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

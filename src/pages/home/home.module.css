@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"), url("../../fonts/Helvetica.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MoonDance";
+  src: local("MoonDance"), url("../../fonts/MoonDance-Regular.ttf") format("truetype");
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+.container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: Helvetica;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-content: center;
+  overflow-y: scroll;
+  background-color: #f5f6fa;
+}
+
+.cardContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.cardContainer {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.nogamesContainer {
+  font-family: MoonDance;
+  font-size: 3em;
+  text-align: center !important;
+}
+
+.label {
+  font-family: Helvetica !important;
+  font-weight: 400 !important;
+  font-size: 1.5em !important;
+}
+.cardLabel {
+  font-family: Helvetica !important;
+  font-weight: 800 !important;
+  font-size: 1em !important;
+}
+
+.loading {
+  font-family: Helvetica !important;
+  font-weight: 600 !important;
+  padding: 1em;
+}
+
+.helvetica {
+  font-family: Helvetica !important;
+}
+
+.rotate {
+  animation: rotateElement 2s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.flip {
+  animation: flipElement 1s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotateElement {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@keyframes flipElement {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(-1);
+  }
+}

@@ -1,0 +1,58 @@
+.container {
+  user-select: none;
+  background-color: #f5f6fa;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.label {
+  font-family: Helvetica !important;
+  font-weight: 400 !important;
+  font-size: 1.6em !important;
+}
+
+.labelnoDecor {
+  font-family: Helvetica;
+}
+
+.middleX {
+  border-top: 7px solid #ffed9d;
+  border-bottom: 7px solid #ffed9d;
+}
+.middleY {
+  border-left: 7px solid #ffed9d;
+  border-right: 7px solid #ffed9d;
+}
+
+.gameButton {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.updateGameButtonContainer {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0;
+  right: 0;
+  font-family: Helvetica;
+}
+
+.updateGameButton {
+  width: 100% !important;
+  background-color: #f7cf4a;
+  border: none;
+  box-shadow: 2px 2px 10px #856f27;
+}
+.updateGameButton:active {
+  box-shadow: 1px 1px 5px #856f27;
+}
+.updateGameButtonDisabled {
+  width: 100% !important;
+  background-color: #e0e0e0;
+  border: none;
+  box-shadow: 2px 2px 10px #818181;
+}

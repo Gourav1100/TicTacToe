@@ -1,0 +1,44 @@
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #ffffff;
+  background-color: #000000;
+}
+.giffyBackground {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  user-select: none;
+  background-image: url("./giphy.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  filter: invert(100%);
+}
+@font-face {
+  font-family: "MoonDance";
+  src: local("MoonDance"), url(../../fonts/MoonDance-Regular.ttf) format("truetype");
+}
+.Text {
+  position: fixed;
+  bottom: 0;
+  padding: 1em;
+  font-size: 3em;
+  font-weight: 600;
+  font-family: MoonDance;
+}
+.iconButton {
+  position: fixed !important;
+  top: 0px !important;
+  left: 0px !important;
+  background-color: white !important;
+  border-radius: 50% !important;
+}

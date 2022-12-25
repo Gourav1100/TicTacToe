@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "MoonDance";
+  src: local("MoonDance"), url(../../fonts/MoonDance-Regular.ttf) format("truetype");
+}
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: scroll;
+  background-color: #f5f6fa;
+  user-select: none;
+}
+
+.titleContainer {
+  font-family: MoonDance;
+}
+.titleContainer :nth-child(n + 2) {
+  font-size: 7rem;
+  font-weight: 550;
+}
+.titleContainer :nth-child(1) {
+  font-size: 2rem;
+  font-weight: 500;
+}
+/* Button */
+.landingButton {
+  width: 100%;
+  border-radius: 15px !important;
+}
+
+.buttonContainer {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

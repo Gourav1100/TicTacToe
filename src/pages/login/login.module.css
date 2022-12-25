@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Neue";
+  src: local("Neue"), url("../../fonts/Atiga\ Bold.otf") format("truetype");
+}
+
+.container {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-family: Neue;
+  background-color: #f5f6fa;
+  user-select: none;
+}
+.title {
+  font-weight: 600;
+}
+.title > div {
+  font-size: xx-large;
+}
+.inputs {
+  background-color: rgba(0, 0, 0, 0.093);
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  font-size: large;
+}
+
+.submitButton {
+  background-color: #f7cf4a !important;
+}
