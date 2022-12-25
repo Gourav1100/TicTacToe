@@ -20,6 +20,16 @@ now search for localhost:3000 in browser to use.
 
 ## Screenshots
 
+<div style="width: 100%;" align="center"><img src="https://github.com/Gourav1100/TicTacToe/blob/main/screenshots/Screenshot%20from%202022-12-25%2022-26-47.png" height="300px" width="auto" alt="1"></div>
+<div style="width: 100%;" align="center"><img src="https://github.com/Gourav1100/TicTacToe/blob/main/screenshots/Screenshot%20from%202022-12-25%2022-27-28.png" height="300px" width="auto" alt="2"></div>
+<div style="width: 100%;" align="center"><img src="https://github.com/Gourav1100/TicTacToe/blob/main/screenshots/Screenshot%20from%202022-12-25%2022-27-46.png" height="300px" width="auto" alt="3"></div>
+<div style="width: 100%;" align="center"><img src="https://github.com/Gourav1100/TicTacToe/blob/main/screenshots/Screenshot%20from%202022-12-25%2022-27-18.png" height="300px" width="auto" alt="4"></div>
+<div style="width: 100%;" align="center"><img src="https://github.com/Gourav1100/TicTacToe/blob/main/screenshots/Screenshot%20from%202022-12-25%2022-25-27.png" height="300px" width="auto" alt="5"></div>
+<div style="width: 100%;" align="center"><img src="https://github.com/Gourav1100/TicTacToe/blob/main/screenshots/Screenshot%20from%202022-12-25%2022-28-02.png" height="300px" width="auto" alt="6"></div>
+<div style="width: 100%;" align="center"><img src="https://github.com/Gourav1100/TicTacToe/blob/main/screenshots/Screenshot%20from%202022-12-25%2022-25-08.png" height="300px" width="auto" alt="7"></div>
+<div style="width: 100%;" align="center"><img src="https://github.com/Gourav1100/TicTacToe/blob/main/screenshots/Screenshot%20from%202022-12-25%2022-25-38.png" height="300px" width="auto" alt="8"></div>
+<div style="width: 100%;" align="center"><img src="https://github.com/Gourav1100/TicTacToe/blob/main/screenshots/Screenshot%20from%202022-12-25%2022-26-28.png" height="300px" width="auto" alt="9"></div>
+
 ## Features
 This game supports - 
 - **Backend**
