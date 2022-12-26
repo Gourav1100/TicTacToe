@@ -171,11 +171,12 @@ const Home = (props) => {
       container
       maxWidth={true}
       className={styles.container}
-      flexDirection={{ xs: "column", sm: "row" }}
+      padding={2}
       style={{ alignContent: "flex-start" }}
     >
       <Grid
         item
+        xs={12}
         paddingBottom={3}
         paddingRight={2}
         style={{
@@ -219,30 +220,17 @@ const Home = (props) => {
           </Typography>
         </Button>
       </Grid>
-      <Grid
-        item
-        flex={1}
-        padding={{ xs: 3, md: 5 }}
-        paddingBottom={0}
-        style={{ width: "100%" }}
-        textAlign={"left"}
-        fontSize={"1.75em"}
-      >
-        {/* header */}
+      <Grid item padding={1} xs={12} textAlign={"left"} fontSize={"1.75em"}>
         Your Games
       </Grid>
       <Grid
-        item
         xs={12}
-        flex={13}
-        padding={{ xs: 2, md: 4 }}
-        paddingBottom={1}
-        paddingTop={1}
+        flexGrow={1}
+        item
         textAlign={"left"}
         justifyContent={"center"}
         fontSize={"1.75em"}
       >
-        {/* Games*/}
         {!(games === undefined || games == null || games.length === 0) ? (
           <Grid
             container
